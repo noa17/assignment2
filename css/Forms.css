@@ -1,0 +1,16 @@
+ body{
+ 	widows: 90%;
+ 	max-width: 1024px;
+
+ }
+ header{
+ 	width: 96.875%;
+ 	color: green;
+ 	font-size: 50px;
+ 	text-align: Left;
+ }
+ footer{
+ 	clear: both;
+ 	width: 96.875;
+ 	padding: 15px 1.5625%;
+ }

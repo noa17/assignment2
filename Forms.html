@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+	<html lang="en"> 
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    	<title> Forms Forms Forms </title>
+   	  <link rel="stylesheet" href="./css/Forms.css"> 
+		</head>
+		
+		<body>
+   	  <header>Please Signup for our Newsletter</header>
+   	  	<a href="http:/about.com">About</a>
+   	  	<a href="http:/about.com">Home Page</a>
+   	  	<a href="http:/facebook.com">Facebook</a>
+			<form name="EntryForm" action="Forms.html" method="post">				
+				<p class="name">Please Enter Your Name</p>
+				  <p>First name:<br> <input type="text" name="firstname"><br></p>
+				  <p>Last name:<br> <input type="text" name="lastname"></p>
+				<p class="email">Please Enter Your E-mail</p>
+					<p>E-mail: <input type="text" name="email"</p>
+				<p class="newsChoices">Choose Topics of Interest</p>
+					<p class="newsChoices">
+						Choices: <br>
+						<select name="choices">
+							<optgroup label="Sports">
+								<option value="mountainSports">Skiing & Snowboarding</option>
+								<option value="basektball">Basketball</option>
+								<option value="football">Football</option>
+								<option value="baseball">Baseball</option>
+							</optgroup>
+							<optgroup label="Exploration">
+								<option value="mountains">Mountains</option>
+								<option value="freshwater">Rivers & Lakes</option> 
+								<option value="saltwater">Oceans and Seas</option>	
+							</optgroup>
+							<optgroup label="Food">
+								<option value="gastropub">Dives</option>
+								<option value="finedining">Michelin Rated Resteraunts</option>
+								<option value="drinks">Drinks/Going Out</option>
+							</optgroup>
+						</select>
+					</p>
+					<p class="reception">
+						How would you like to recieve the newsletter? <br>
+						<input type="radio" name="receiving" value="email">
+							E-mail<br>
+						<input type="radio" name="receiving" value="mail">
+							Mail<br> <!-- If this was selected we would need to create a form for their address to send the letter home-->
+						<input type="radio" name="receiving" value="both">
+							Both <!-- Same as the comment above, here we would need to collect their addresss.-->
+					</p>
+					<p class="deliveryFrequency">
+						What day of the week would you like to receive your newsletter? <br>
+						<input type="checkbox" name="frequency" value="sunday">
+							Sunday <br>
+						<input type="checkbox" name="frequency" value="monday">
+							Monday <br>
+						<input type="checkbox" name="frequency" value="tuesday">
+							Tuesday <br>
+						<input type="checkbox" name="frequency" value="wednesday">
+							Wednesday <br>
+						<input type="checkbox" name="frequency" value="thursday">
+							Thursday <br>
+						<input type="checkbox" name="frequency" value="friday">
+							Friday <br>
+						<input type="checkbox" name="frequency" value="saturday">
+							Saturday 
+					</p class="submit">
+						<input type="submit" name="submitform" value="Submit & Complete">
+					</p>
+				</form>
+		</form>
+		</body>
+		<footer>
+			<a href="http:/google.com"> Copy right 2016</a>
+			<a href="http:w3schools.com"> Help on forms can be found here</a>
+		</footer>
+	</html>
