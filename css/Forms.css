@@ -1,6 +1,7 @@
  body{
  	widows: 90%;
  	max-width: 1024px;
+ 	background-color: Lightblue;
 
  }
  header{
@@ -13,4 +14,11 @@
  	clear: both;
  	width: 96.875;
  	padding: 15px 1.5625%;
+ }
+ select{
+ 	background-color: white;
+ 	padding: 1px;
+ }
+ input{
+	background-color: white;
  }
